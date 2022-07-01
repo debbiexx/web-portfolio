@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Developer's Portfolio</title>
+  </head>
+
+  <body>
+  
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+      <div class="navigation__background">&nbsp;</div>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#section-about" class="navigation__link"
+              >About Me</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-projects" class="navigation__link"
+              >My Projects</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">welcome</span>
+          <span class="heading-primary--sub">to my portfolio</span>
+        </h1>
+
+        <a href="#section-about" class="btn btn--white btn--animated"
+          >about me</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about" id="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">~ ALL ABOUT ME ~</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Just a normal citizen living in the Philippines
+            </h3>
+            <p class="paragraph">
+              Hey! It's me Debbie. Thank you for reading my profile. I am an introverted type of person <em><small>(an INFJ type, that's what the MBTI says about me)</small></em>. And the only skills  I have is pure determination. Determined to learn new things in this life. My favorite programming quotes: "It is not hard, but a lot of hard work."
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Random Facts about me
+            </h3>
+            <p class="paragraph">
+                I'm slightly addicted to funny memes. I'm a bit of a clean freak. I'm a bit protective of my lifestyle <em>(that means "I don't drink", I rarely eat junkfoods nor drink softdrinks,I like tea instead. I do yoga.)</em>. Nature is my zen time.
+                I can write and read Korean but not a pro.
+            </p>
+
+            <a href="#section-projects" class="btn-text">View My Projects &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                srcset="image/image1.jpg 300w, image/image1.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+                src="image/image1.jpg"
+              />
+
+              <img
+                srcset="image/image2.png 300w, image/image2.png 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+                src="image/image2.png"
+              />
+
+              <img
+                srcset="image/image3.jpg 300w, image/image3.jpg 1000w"
+                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+                src="image/image3.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="section-projects" id="section-projects">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">My Bootcamp Projects</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >Capstone Project 1</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <h1> This is my Front-end Web Development Project. This project is the application of what we have learned from the topic HTML, CSS, and Bootstrap.</h1>
+                 
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <a href="https://djrosales.github.io/webportfolio/" target="_blank" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >Capstone Project 2</span
+                  >
+                </h4>
+                 <div class="card__details">
+                  <h1>
+                 This is my Back-end Web Development Project. This project is the application of what we've learned from the topic JavaScript, MongoDB, Node.js, and Express.js.</h1>
+                </div> 
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <a href="https://ekomersiyo-negosyo.vercel.app/" target="_blank" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >Capstone Project 3</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <h1>
+                   This is my MERN stack project. This project is about eCommerce app. I enjoyed constructing a high performing UI layer through React.js. I deployed this app through Vercel.</h1>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                <a href="https://ekomersiyo-negosyo.vercel.app/" target="_blank" class="btn btn--white">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Home</a>
+              </li>
+              <li class="footer__item">
+                <a href="#section-about" class="footer__link">about</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Copyright &copy; by debbie.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
